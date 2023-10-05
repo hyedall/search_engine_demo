@@ -1,0 +1,12 @@
+# FROM tiangolo/uvicorn-gunicorn-fastapi:python3.10
+FROM python:3.10
+WORKDIR /code
+
+# APP_MODOLE 환경변수 설정
+# ENV APP_MODULE app.app:app
+COPY requirements.txt /app
+RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
+COPY ./ /app
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "80"]
+
+# docker build -t myimage ./
