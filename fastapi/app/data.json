@@ -1,0 +1,83 @@
+{
+    "took": 11,
+    "timed_out": false,
+    "_shards": {
+      "total": 1,
+      "successful": 1,
+      "skipped": 0,
+      "failed": 0
+    },
+    "hits": {
+      "total": {
+        "value": 2,
+        "relation": "eq"
+      },
+      "max_score": 3.7872744,
+      "hits": [
+        {
+          "_index": "test2",
+          "_id": "rihQ-IoBa3Uo5ssokSAq",
+          "_score": 3.7872744,
+          "_source": {
+            "message": "216,216,2,2호선,을지로순환선,16,잠실(송파구청),잠실|송파구청,蠶室(松坡區廳),蚕室(松坡区厅),Jamsil (Songpa-gu Office),チャムシル,37.51395,127.102234,11240,송파구,서울특별시 송파구 올림픽로 지하265(신천동),서울특별시 송파구 신천동 8 잠실역(2호선),02-6110-2161",
+            "station.name_jp": "チャムシル",
+            "@version": "1",
+            "station.fr_code": "216",
+            "line.station_seq": "16",
+            "geo.sigungu_code": "11240",
+            "station.code": "216",
+            "station.name_en": "Jamsil (Songpa-gu Office)",
+            "geo.addres_road": "서울특별시 송파구 올림픽로 지하265(신천동)",
+            "@timestamp": "2023-10-04T01:32:21.937993845Z",
+            "line.name": "2호선",
+            "station.name_chc": "蠶室(松坡區廳)",
+            "event": {
+              "original": "216,216,2,2호선,을지로순환선,16,잠실(송파구청),잠실|송파구청,蠶室(松坡區廳),蚕室(松坡区厅),Jamsil (Songpa-gu Office),チャムシル,37.51395,127.102234,11240,송파구,서울특별시 송파구 올림픽로 지하265(신천동),서울특별시 송파구 신천동 8 잠실역(2호선),02-6110-2161"
+            },
+            "station.name_chn": "蚕室(松坡区厅)",
+            "station.name_full": "잠실(송파구청)",
+            "geo.latitude": "37.51395",
+            "geo.longitude": "127.102234",
+            "geo.sigungu_name": "송파구",
+            "line.num": "2",
+            "geo.phone": "02-6110-2161",
+            "line.name_sub": "을지로순환선",
+            "station.name": "잠실|송파구청",
+            "geo.address_land": "서울특별시 송파구 신천동 8 잠실역(2호선)"
+          }
+        },
+        {
+          "_index": "test2",
+          "_id": "vihQ-IoBa3Uo5ssokSEs",
+          "_score": 3.7872744,
+          "_source": {
+            "message": "2815,814,8,8호선,지하철8호선,5,잠실(송파구청),잠실|송파구청,蠶室(松坡區廳),蚕室(松坡区厅),Jamsil(Songpa-gu Office),チャムシル,37.51395,127.102234,11240,송파구,서울특별시 송파구 올림픽로 305(신천동),서울특별시 송파구 신천동 7-4 잠실역(8호선),02-6311-8141",
+            "station.name_jp": "チャムシル",
+            "@version": "1",
+            "station.fr_code": "814",
+            "line.station_seq": "5",
+            "geo.sigungu_code": "11240",
+            "station.code": "2815",
+            "station.name_en": "Jamsil(Songpa-gu Office)",
+            "geo.addres_road": "서울특별시 송파구 올림픽로 305(신천동)",
+            "@timestamp": "2023-10-04T01:32:22.160409553Z",
+            "line.name": "8호선",
+            "station.name_chc": "蠶室(松坡區廳)",
+            "event": {
+              "original": "2815,814,8,8호선,지하철8호선,5,잠실(송파구청),잠실|송파구청,蠶室(松坡區廳),蚕室(松坡区厅),Jamsil(Songpa-gu Office),チャムシル,37.51395,127.102234,11240,송파구,서울특별시 송파구 올림픽로 305(신천동),서울특별시 송파구 신천동 7-4 잠실역(8호선),02-6311-8141"
+            },
+            "station.name_chn": "蚕室(松坡区厅)",
+            "station.name_full": "잠실(송파구청)",
+            "geo.latitude": "37.51395",
+            "geo.longitude": "127.102234",
+            "geo.sigungu_name": "송파구",
+            "line.num": "8",
+            "geo.phone": "02-6311-8141",
+            "line.name_sub": "지하철8호선",
+            "station.name": "잠실|송파구청",
+            "geo.address_land": "서울특별시 송파구 신천동 7-4 잠실역(8호선)"
+          }
+        }
+      ]
+    }
+  }
