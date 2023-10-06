@@ -9,7 +9,7 @@ RUN pip install --upgrade pip
 RUN pip install --no-cache-dir --upgrade -r requirements.txt
 
 # app 폴더 복사
-COPY ./app code/app
+COPY ./app /code/app
 ENV PYTHONPATH=/app
 # COPY ./start.sh /start.sh
 # RUN /bin/sh -c chmod +x /start.sh
